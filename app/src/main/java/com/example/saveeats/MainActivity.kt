@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.saveeats.historicocomponent.componentes.Receitas
 import com.example.saveeats.historicocomponent.screen.HistoricoScreen
 import com.example.saveeats.ui.theme.SaveEatsTheme
 
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize()
                 ) {
-                    HistoricoScreen()
+                    Receitas()
                 }
             }
         }

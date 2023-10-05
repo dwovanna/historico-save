@@ -85,12 +85,14 @@ fun Form() {
                             horizontalArrangement = Arrangement.Start
                         ) {
                             Image(
-                                painter = painterResource(id = com.example.saveeats.R.drawable.logo_restaurant),
+                                painter = painterResource(id = com.example.saveeats.R.drawable.pizzaa),
                                 contentDescription = "",
                                 modifier = Modifier
                                     .size(50.dp)
                             )
+                            
                             Spacer(modifier = Modifier.width(15.dp))
+
                             Text(
                                 text = "Pizzaria Dois Irmãos",
                                 fontSize = 20.sp
@@ -132,7 +134,7 @@ fun Form() {
                         Card(
                             modifier = Modifier
                                 .width(145.dp)
-                                .height(35.dp),
+                                .height(40.dp),
                             shape = RoundedCornerShape(30.dp),
                             backgroundColor = Color(72, 138, 39)
 

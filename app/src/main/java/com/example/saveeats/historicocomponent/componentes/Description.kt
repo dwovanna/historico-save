@@ -27,7 +27,7 @@ fun Description() {
 
         Row() {
             Icon(
-                painter = painterResource(id = com.example.saveeats.R.drawable.baseline_west_24),
+                painter = painterResource(id = com.example.saveeats.R.drawable.saida_seta),
                 contentDescription = "",
                 modifier = Modifier.size(40.dp)
             )
@@ -107,7 +107,7 @@ fun Description() {
                         ) {
 
                             Icon(
-                                painter = painterResource(id = com.example.saveeats.R.drawable.baseline_verified_24),
+                                painter = painterResource(id = com.example.saveeats.R.drawable.verificado),
                                 contentDescription = "",
                                 tint = Color(72, 138, 39),
                                 modifier = Modifier.size(22.dp)
@@ -292,22 +292,22 @@ fun Description() {
             
             Row {
 
-                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                     contentDescription = "" )
 
                 Spacer(modifier = Modifier.width(3.dp))
 
-                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                     contentDescription = "" )
 
                 Spacer(modifier = Modifier.width(3.dp))
 
-                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                     contentDescription = "" )
 
                 Spacer(modifier = Modifier.width(3.dp))
 
-                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                     contentDescription = "" )
 
                 Spacer(modifier = Modifier.width(200.dp))

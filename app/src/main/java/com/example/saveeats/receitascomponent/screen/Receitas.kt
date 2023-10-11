@@ -16,7 +16,6 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.TextFieldValue
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -121,7 +120,7 @@ fun Receitas() {
             modifier = Modifier.fillMaxWidth(),
             leadingIcon = {
                 Icon(
-                    painter = painterResource(id = R.drawable.baseline_search_24),
+                    painter = painterResource(id = R.drawable.lupa_pesquisa),
                     contentDescription = "Seaerch",
                     tint = Color.Gray
                 )
@@ -275,19 +274,19 @@ fun Receitas() {
 
                             Row() {
 
-                                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                                     contentDescription = "",
                                     tint = Color(255, 193, 7, 255))
 
-                                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                                     contentDescription = "" ,
                                     tint = Color(255, 193, 7, 255))
 
-                                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                                     contentDescription = "",
                                     tint = Color(255, 193, 7, 255))
 
-                                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                                Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                                     contentDescription = "",
                                     tint = Color(255, 193, 7, 255))
 
@@ -348,7 +347,7 @@ fun Receitas() {
                                 Row() {
 
                                     Image(
-                                        painter = painterResource(id = R.drawable.destereceita),
+                                        painter = painterResource(id = R.drawable.modo_preparo),
                                         contentDescription = "",
                                         modifier = Modifier.size(110.dp),
 
@@ -373,27 +372,27 @@ fun Receitas() {
 
                                             Spacer(modifier = Modifier.width(10.dp))
 
-                                            Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                                            Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                                                 contentDescription = "",
                                                 tint = Color(255, 193, 7, 255),
                                             modifier = Modifier
                                                 .width(17.dp))
 
-                                            Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                                            Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                                                 contentDescription = "" ,
                                                 tint = Color(255, 193, 7, 255),
                                                 modifier = Modifier
                                                     .width(17.dp))
 
 
-                                            Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                                            Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                                                 contentDescription = "",
                                                 tint = Color(255, 193, 7, 255),
                                                         modifier = Modifier
                                                         .width(17.dp))
 
 
-                                            Icon(painter = painterResource(id = com.example.saveeats.R.drawable.avaliacao),
+                                            Icon(painter = painterResource(id = com.example.saveeats.R.drawable.estrelinhas),
                                                 contentDescription = "",
                                                 tint = Color(255, 193, 7, 255),
                                                 modifier = Modifier
